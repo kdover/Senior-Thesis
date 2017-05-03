@@ -11,3 +11,5 @@ Same as predictW.r, except that the code finds the head and shoulders shape.
 
 3d plot.r
 This file mostly deals with plotting 3D data. The initial plot is just the plot of time, price, volume of the stock data that is imported. At the end of the file, there are commands to determine the distributions at every 10 points and plot the means and standard deviations at each step. To make this work, just run the code the order it is written.
+
+The other files in this are just the CSV files that contain the stock data. They are called by the other files when they are being imported. When running the functions, make sure the files live in the working directory.
